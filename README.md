@@ -39,33 +39,33 @@ This project uses Power BI DAX & Visualization tool to analyze manufacturing dat
 
 The data is imported from Google Bigquery public dataset. Here is the Data dictionary:
 
-Table: Production.BillOfMaterials
+**Table: Production.BillOfMaterials**
 
 ![image](https://github.com/user-attachments/assets/c2fed4df-dfd8-4280-9517-cdb44970fd4a)
 
 ![image](https://github.com/user-attachments/assets/41b04177-db0b-4a8a-8718-0ba06a214b7d)
 
-Table: Production.ScrapReason
+**Table: Production.ScrapReason**
 
 ![image](https://github.com/user-attachments/assets/c55c030b-4f61-4a0e-b796-5a8f1d6b5e6f)
 
-Table: Production.WorkOrder
+**Table: Production.WorkOrder**
 
 ![image](https://github.com/user-attachments/assets/d653e1fd-5c51-400c-baad-f01fdd67f375)
 
-Table: Production.WorkOrderRouting
+**Table: Production.WorkOrderRouting**
 
 ![image](https://github.com/user-attachments/assets/c3b7844e-b6ad-4d86-8168-6228c2c19556)
 
-Table: Product.Product
+**Table: Product.Product**
 
 ![image](https://github.com/user-attachments/assets/edd1c6be-6f35-40d8-8281-48cba9b9f92b)
 
-Table: Product.ProductCategory
+**Table: Product.ProductCategory**
 
 ![image](https://github.com/user-attachments/assets/a8dbf229-b3b8-460f-98c3-9c38e6cf3767)
 
-Table: Production.ProductSubcategory
+**Table: Production.ProductSubcategory**
 
 ![image](https://github.com/user-attachments/assets/6180526b-247a-4dbe-b126-8e2479fd14f3)
 
@@ -103,9 +103,15 @@ The Design Thinking Process was implied to understand dashboard viewers' need to
 
 **Dashboard**
 
+**Manufacturing Overview**
+
 ![image](https://github.com/user-attachments/assets/dafef429-526b-4666-a878-924711e2294f)
 
+**Bikes Analysis**
+
 ![image](https://github.com/user-attachments/assets/3c800061-390c-46c9-9fac-3917bc5d23b2)
+
+**Component Analysis**
 
 ![image](https://github.com/user-attachments/assets/098b4670-353b-4ab8-ae4a-369522bdc065)
 
