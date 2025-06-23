@@ -17,7 +17,7 @@ Tools used: Power BI (DAX & Visualization)
 
 [IV. Key Insights & Visualizations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#iv-key-insights--visualizations)
 
-[V.  Final Conclusion & Recommendations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
+[V.  Final Conclusion & Recommendations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#v--final-conclusion--recommendations)
 
 ## I. Background & Overview
 
