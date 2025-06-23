@@ -9,15 +9,15 @@ Tools used: Power BI (DAX & Visualization)
 
 ## Table of Contents
 
-[I. Background & Overview](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/edit/main/README.md#i-background--overview)
+[I. Background & Overview](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#i-background--overview)
 
-[II. Dataset Description & Data Structure](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/edit/main/README.md#ii-dataset-description--data-structure)
+[II. Dataset Description & Data Structure](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
 
-[III. Design Thinking Process](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/edit/main/README.md#ii-dataset-description--data-structure)
+[III. Design Thinking Process](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
 
-[IV. Key Insights & Visualizations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/edit/main/README.md#ii-dataset-description--data-structure)
+[IV. Key Insights & Visualizations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
 
-[V.  Final Conclusion & Recommendations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/edit/main/README.md#ii-dataset-description--data-structure)
+[V.  Final Conclusion & Recommendations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
 
 ## I. Background & Overview
 
