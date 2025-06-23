@@ -13,7 +13,7 @@ Tools used: Power BI (DAX & Visualization)
 
 [II. Dataset Description & Data Structure](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
 
-[III. Design Thinking Process](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
+[III. Design Thinking Process](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#iii-design-thinking-process)
 
 [IV. Key Insights & Visualizations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
 
