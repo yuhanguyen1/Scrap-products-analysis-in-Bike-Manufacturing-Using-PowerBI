@@ -21,7 +21,7 @@ Tools used: Power BI (DAX & Visualization)
 
 ## I. Background & Overview
 
-Objective:
+### Objective:
 
 This project uses Power BI DAX & Visualization tool to analyze manufacturing data from AdventureWorks to:
 
@@ -29,7 +29,7 @@ This project uses Power BI DAX & Visualization tool to analyze manufacturing dat
 
 ✔️ Identify reasons that led to scrap products from each category, at what time of the year does the manufacturing record the most scrap products.
 
-👤 Who is this project for?
+### Who is this project for?
 
 ✔️ Data analysts & business analysts
 
