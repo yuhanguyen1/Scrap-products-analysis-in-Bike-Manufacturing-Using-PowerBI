@@ -1,4 +1,4 @@
-# Analyze Scrap products in Bike Manufacturing Using PowerBI
+# Scrap products analysis in Bike Manufacturing Using PowerBI
 Used Power BI to visualize scrap products of AdventureWorks, including final products, components, creates meaningful insights.
 
 Author: Nguyen Anh Huy
