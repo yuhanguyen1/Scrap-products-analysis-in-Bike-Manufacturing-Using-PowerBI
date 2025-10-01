@@ -1,4 +1,4 @@
-# 🛒 AdventureWorks Production Dashboard  
+# 🛒 Scrap products analysis in Bike Manufacturing Using PowerBI
 
 <img width="1200" height="628" alt="cpo12207png" src="https://github.com/user-attachments/assets/292b9200-f739-47ae-b535-29af748b12ff" />
 
