@@ -1,137 +1,159 @@
-# Scrap products analysis in Bike Manufacturing Using PowerBI
-Designed and built an operational dashboard in Power BI to analyze scrap products in bike manufacturing, using DAX for data transformation and metric calculations to process ~50k order records across 7 tables to deliver actionable insights for production decision-making.
-
-Author: Nguyen Anh Huy
-
-Date: 07/04/2025
-
-Tools used: Power BI (DAX & Visualization)
-
-## Table of Contents
-
-[I. Background & Overview](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#i-background--overview)
-
-[II. Dataset Description & Data Structure](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
-
-[III. Design Thinking Process](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#iii-design-thinking-process)
-
-[IV. Key Insights & Visualizations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#iv-key-insights--visualizations)
-
-[V.  Final Conclusion & Recommendations](https://github.com/yuhanguyen/AdventureWorks-Scrap-Analysis/blob/main/README.md#v--final-conclusion--recommendations)
-
-## I. Background & Overview
-
-### Objective:
-
-This project uses Power BI DAX & Visualization tool to analyze manufacturing data from AdventureWorks to:
-
-✔️ Monitorize manufacturing performance, including components and bikes assembly.
-
-✔️ Identify reasons that led to scrap products from each category, at what time of the year does the manufacturing record the most scrap products.
-
-### Who is this project for?
-
-✔️ Data analysts & business analysts
-
-✔️ Manufacturing manager & stakeholders
-
-## II. Dataset Description & Data Structure
-
-The data is imported from Google Bigquery public dataset. Here is the Data dictionary:
-
-**Table: Production.BillOfMaterials**
-
-![image](https://github.com/user-attachments/assets/c2fed4df-dfd8-4280-9517-cdb44970fd4a)
-
-![image](https://github.com/user-attachments/assets/41b04177-db0b-4a8a-8718-0ba06a214b7d)
-
-**Table: Production.ScrapReason**
-
-![image](https://github.com/user-attachments/assets/c55c030b-4f61-4a0e-b796-5a8f1d6b5e6f)
-
-**Table: Production.WorkOrder**
-
-![image](https://github.com/user-attachments/assets/d653e1fd-5c51-400c-baad-f01fdd67f375)
-
-**Table: Production.WorkOrderRouting**
-
-![image](https://github.com/user-attachments/assets/c3b7844e-b6ad-4d86-8168-6228c2c19556)
-
-**Table: Product.Product**
-
-![image](https://github.com/user-attachments/assets/edd1c6be-6f35-40d8-8281-48cba9b9f92b)
-
-**Table: Product.ProductCategory**
-
-![image](https://github.com/user-attachments/assets/a8dbf229-b3b8-460f-98c3-9c38e6cf3767)
-
-**Table: Production.ProductSubcategory**
-
-![image](https://github.com/user-attachments/assets/6180526b-247a-4dbe-b126-8e2479fd14f3)
-
-**Data Model**
-
-![image](https://github.com/user-attachments/assets/1237c58d-c44a-40bf-8c29-abfca2320bbf)
-
-
-## III. Design Thinking Process
-The Design Thinking Process was implied to understand dashboard viewers' need to create the best dashboard. The process consist of the following 4 steps:
-
-1️⃣ Empathize
-
-![image](https://github.com/user-attachments/assets/f0ec46df-6321-4f21-8fb7-1761a553be76)
-
-![image](https://github.com/user-attachments/assets/f6360ea9-0c1a-4b00-afd2-ffd083331bce)
-
-2️⃣ Define point of view
-
-![image](https://github.com/user-attachments/assets/ef464ad9-ef4e-4020-8fe5-00805cfb73b0)
-
-![image](https://github.com/user-attachments/assets/b0032eda-8954-44dc-badc-df17864324db)
-
-3️⃣ Ideate
-
-![image](https://github.com/user-attachments/assets/5bd5b47f-15d7-4352-93a9-a02b1365ca8c)
-
-![image](https://github.com/user-attachments/assets/b9a990ca-e30f-4f0f-9268-71af360c6a89)
-
-4️⃣ Prototype and review
-
-![image](https://github.com/user-attachments/assets/93e87853-69fa-43f4-9f67-13365f9b9c1d)
-
-## IV. Key Insights & Visualizations
-
-**Dashboard**
-
-**Manufacturing Overview**
-
-![image](https://github.com/user-attachments/assets/dafef429-526b-4666-a878-924711e2294f)
-
-**Bikes Analysis**
-
-![image](https://github.com/user-attachments/assets/3c800061-390c-46c9-9fac-3917bc5d23b2)
-
-**Component Analysis**
-
-![image](https://github.com/user-attachments/assets/098b4670-353b-4ab8-ae4a-369522bdc065)
-
-**Key Insights**
-
-+ Production has good growth but fluctuates depending on the time of year. However, the more production, the more defective products and the higher the defect rate.
-
-+ Road bikes are produced the most and are also the car models with the most defects.
-
-+ Wheels are the most scrap components, significantly more than the remaining components.
-
-+ The most common scrap reasons such as drilling, cutting raw materials are subjective errors due to human errors during the processing process.
-
-## V.  Final Conclusion & Recommendations
-
-+ Review production equipment (drilling tools, cutting machines, thermoforming furnaces).
-
-+ Review production staff, if necessary, reduce or recruit replacement staff.
-
-+ Review production staff training process, paying special attention to error-prone stages such as drilling, cutting. If necessary, retrain.
-
-+ There should be close supervision of the production process, especially during peak periods to limit errors.
-
+# 🛒 AdventureWorks Production Dashboard  
+
+<img width="1200" height="628" alt="cpo12207png" src="https://github.com/user-attachments/assets/292b9200-f739-47ae-b535-29af748b12ff" />
+
+**Author:** Nguyễn Anh Huy  
+**Date:** February 2025  
+**Tools Used:** Power BI, DAX, Data Modeling  
+
+---
+
+## 📑 Table of Contents  
+- 📌 [Background & Overview](#-background--overview)  
+- 📂 [Dataset Description & Data Structure](#-dataset-description--data-structure)  
+- 🧠 [Design Thinking Process](#-design-thinking-process)  
+- 📊 [Key Insights & Visualizations](#-key-insights--visualizations)  
+- 🔎 [Final Conclusion & Recommendation](#-final-conclusion--recommendation)  
+
+---
+
+## 📌 Background & Overview  
+
+### 🎯 Objective  
+This project delivers a **Power BI dashboard** built on the **AdventureWorks production dataset**, aimed at providing **production managers** with clear, data-driven insights into:  
+- Production performance metrics across orders, quantity, and delivery timelines  
+- Resource allocation and efficiency across locations and categories  
+- Quality control and cost variance to optimize manufacturing processes  
+- Operational improvements to reduce scrap rates and delays  
+
+### 👤 Who is this project for?  
+✔️ Production managers needing operational performance insights  
+✔️ Data analysts focusing on manufacturing analytics  
+✔️ Quality control teams targeting process improvements  
+✔️ Operations leaders optimizing resource allocation and costs  
+
+### ❓ Key Business Questions  
+- What is the current **production performance** in terms of orders and quantity?  
+- How are **resources and time** distributed across locations and categories?  
+- What are the key factors affecting **quality and cost variance**?  
+- How can **scrap rates and delays** be minimized in the production process?  
+
+---
+
+## 📂 Dataset Description & Data Structure  
+
+### 📌 Data Source  
+- **Source:** AdventureWorks production dataset (internal database)  
+- **Size:** ~73K records  
+- **Format:** CSV  
+
+### 📊 Data Tables  
+1. **BillOfMaterials** – Details of materials required for production  
+2. **DimEndDate** – End date dimensions for production scheduling  
+3. **DimStartDate** – Start date dimensions for production scheduling  
+4. **Location** – Production location details  
+5. **Parameter** – Configuration parameters for production processes  
+6. **Product** – Product specifications and details  
+7. **ProductCategory** – Product category classifications  
+8. **ProductCostHistory** – Historical cost data for products  
+9. **ProductInventory** – Inventory levels of products  
+10. **ProductListPriceHistory** – Historical list price data for products  
+11. **ProductSubcategory** – Product subcategory classifications  
+12. **ProductTable** – Comprehensive product data table  
+13. **ScrapReason** – Reasons for scrap occurrences  
+14. **TransactionHistory** – Transaction records related to production  
+15. **WorkOrder** – Work order details for production tasks  
+16. **WorkOrderRouting** – Routing details for work orders  
+
+### 🔗 Data Relationships  
+| From Table    | To Table          | Join Key         | Relationship Type |  
+|---------------|-------------------|------------------|------------------|  
+| WorkOrder     | Product           | ProductID        | Many-to-One      |  
+| WorkOrder     | Location          | LocationID       | Many-to-One      |  
+| WorkOrder     | ScrapReason       | ScrapReasonID    | One-to-Many      |  
+| Product       | ProductSubcategory| ProductSubcategoryID | Many-to-One |  
+| ProductSubcategory | ProductCategory | ProductCategoryID | Many-to-One |  
+
+---
+
+## 🧠 Design Thinking Process  
+
+1️⃣ **Empathize** → Understand production managers’ need for real-time performance and quality dashboards  
+2️⃣ **Define** → Focus on efficiency, quality, and cost optimization  
+3️⃣ **Ideate** → Map key KPIs (Orders, Quantity, On-Time Rate, Scrap Rate, Avg Production, Avg Delay Days)  
+4️⃣ **Prototype & Review** → Build iterative dashboards with 3 lenses: **Manufacturing Overview, Process & Resource Performance, Quality & Cost**  
+
+---
+
+## 📊 Key Insights & Visualizations  
+
+### I. Manufacturing Overview  
+<img width="1429" height="802" alt="image" src="https://github.com/user-attachments/assets/976ccc53-ee7d-4996-bc5e-d7b829b258ad" />
+
+📌 **Findings:**  
+1. **Order Volume Growth** – Total orders at **73K (+11.9% vs LY)**, total quantity at **4M (+10.2% vs LY)**.  
+2. **On-Time Rate Stable** – Maintained at **6.9%**, with a slight decline (-3.4% vs LY).  
+3. **Scrap Rate Increase** – Rose to **0.24% (+14% vs LY)**, indicating quality concerns.  
+4. **Production Efficiency** – Average production at **13.24 hours**, up slightly (+2% vs LY).  
+5. **Delay Impact** – Average delay days at **5.6 days (+11% vs LY)**, affecting delivery timelines.  
+
+---
+
+### II. Process & Resource Performance  
+<img width="1432" height="799" alt="image" src="https://github.com/user-attachments/assets/596edb61-0d4b-471a-805a-3ff0834c62b3" />
+
+📌 **Findings:**  
+1. **Scrap Rate Trend** – Increased from **0.13% (2011) to 0.12% (2014)**, peaking in mid-2014.  
+2. **Resource Allocation** – Bikes dominate resource hours (e.g., 12K hours in December), Components at ~4K hours.  
+3. **Work Order Completion** – Majority (6K orders) completed within 0-4 days, 2K orders >20 days.  
+4. **Queue Time Variation** – Average queue time across locations ranges from **3.9 to 4.3 days**.  
+5. **Time Share Distribution** – Operation sequence 8 has the highest average time share (0.83 days).  
+
+---
+
+### III. Quality & Cost  
+<img width="1427" height="801" alt="image" src="https://github.com/user-attachments/assets/6992ffcc-f3d5-4199-8cd9-59c048c76192" />
+
+📌 **Findings:**  
+1. **Cost Variance** – Actual cost ($3.36B) exceeds standard cost ($125.1M) by **$3.36B**, driven by HL Road Handlebars.  
+2. **Scrap Cost Distribution** – Final Assembly incurs the highest scrap cost (~145K), Specialized at ~15K.  
+3. **Primary Scrap Reasons** – Trim length issues (673 units) and wheel misalignment (314 units) top the list.  
+4. **Delay & Late Work Orders** – Sequence 4 shows 5.6 days delay and 22.4% late orders.  
+5. **On-Time vs Scrap Rate** – Location 50 has the lowest on-time rate (0.11%) and highest scrap rate (0.18%).  
+
+---
+
+## 🔎 Final Conclusion & Recommendation  
+
+### 📌 1. Market Expansion  
+- **Insight:** Resource allocation shows Bikes as the primary focus, with Components underutilized.  
+- **Recommendation:**  
+  - Optimize **resource allocation** to balance Bikes and Components production.  
+  - Invest in **automation for high-delay locations** (e.g., Location 50).  
+  - Monitor **scrap cost trends** in Final Assembly to reduce waste.  
+
+---
+
+### 📌 2. Product Portfolio  
+- **Insight:** HL Road Handlebars and HL Mountain Frame show significant cost variances.  
+- **Recommendation:**  
+  - Review **manufacturing processes** for high-variance products (e.g., Handlebars).  
+  - Develop **quality checks** for Frames to reduce scrap (e.g., Trim length issues).  
+  - Phase out or redesign **underperforming SKUs** with high scrap rates.  
+
+---
+
+### 📌 3. Operations & Efficiency  
+- **Insight:** Delays (5.6 days) and scrap rates (0.24%) indicate inefficiencies in sequences 4 and 5.  
+- **Recommendation:**  
+  - Shorten **queue times** in high-delay locations (e.g., 4.3 days at Location 60).  
+  - Implement **preventive measures** for top scrap reasons (Trim length, Wheel misalignment).  
+  - Replicate **efficient processes** from low-delay locations (e.g., Location 10).  
+
+---
+
+### ✨ Overall Business Impact  
+Implementing these recommendations will enable:  
+- **Improved production efficiency** through optimized resource allocation and reduced delays.  
+- **Reduced scrap and cost variance** via targeted quality improvements.  
+- **Enhanced operational performance** through process optimization and waste reduction.
