@@ -92,7 +92,7 @@ This project delivers a **Power BI dashboard** built on the **AdventureWorks pro
 
 📌 **Findings:**  
 1. **Order Volume Growth** – Total orders at **73K (+11.9% vs LY)**, total quantity at **4M (+10.2% vs LY)**.  
-2. **On-Time Rate Stable** – Maintained at **6.9%**, with a slight decline (-3.4% vs LY).  
+2. **On-Time Rate Stable** – Maintained at **69%**, with a slight decline (-3.4% vs LY).  
 3. **Scrap Rate Increase** – Rose to **0.24% (+14% vs LY)**, indicating quality concerns.  
 4. **Production Efficiency** – Average production at **13.24 hours**, up slightly (+2% vs LY).  
 5. **Delay Impact** – Average delay days at **5.6 days (+11% vs LY)**, affecting delivery timelines.  
