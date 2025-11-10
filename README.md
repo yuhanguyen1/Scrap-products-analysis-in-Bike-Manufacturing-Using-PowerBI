@@ -106,7 +106,7 @@ This project delivers a **Power BI dashboard** built on the **AdventureWorks pro
 1. **Resource Allocation** – Components dominate resource hours (e.g., 12K hours in December), Bikes at ~4K hours.  
 2. **Work Order Completion** – Majority completed within 0-16 days, 7K orders >20 days.  
 3. **Queue Time Variation** – Average queue time across locations ranges from **3.9 to 4.3 days**.  
-4. **Time Share Distribution** – Operation sequence 8 has the highest average time share (0.83 days).  
+4. **Time Share Distribution** – Operation sequence 7 has the highest average time share (0.83 days).  
 
 ---
 
