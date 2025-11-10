@@ -103,11 +103,10 @@ This project delivers a **Power BI dashboard** built on the **AdventureWorks pro
 <img width="1432" height="799" alt="image" src="https://github.com/user-attachments/assets/596edb61-0d4b-471a-805a-3ff0834c62b3" />
 
 📌 **Findings:**  
-1. **Scrap Rate Trend** – Increased from **0.13% (2011) to 0.12% (2014)**, peaking in mid-2014.  
-2. **Resource Allocation** – Components dominate resource hours (e.g., 12K hours in December), Bikes at ~4K hours.  
-3. **Work Order Completion** – Majority completed within 0-16 days, 7K orders >20 days.  
-4. **Queue Time Variation** – Average queue time across locations ranges from **3.9 to 4.3 days**.  
-5. **Time Share Distribution** – Operation sequence 8 has the highest average time share (0.83 days).  
+1. **Resource Allocation** – Components dominate resource hours (e.g., 12K hours in December), Bikes at ~4K hours.  
+2. **Work Order Completion** – Majority completed within 0-16 days, 7K orders >20 days.  
+3. **Queue Time Variation** – Average queue time across locations ranges from **3.9 to 4.3 days**.  
+4. **Time Share Distribution** – Operation sequence 8 has the highest average time share (0.83 days).  
 
 ---
 
