@@ -143,7 +143,7 @@ This project delivers a **Power BI dashboard** built on the **AdventureWorks pro
 ---
 
 ### 📌 3. Operations & Efficiency  
-- **Insight:** Delays (5.6 days) and scrap rates (0.24%) indicate inefficiencies in sequences 5 and 6.  
+- **Insight:** Delays (5.6 days) and scrap rates (0.24%) indicate inefficiencies in sequences 6 and 7.  
 - **Recommendation:**  
   - Shorten **queue times** in high-delay locations (e.g., 4.4 days at Location 50).  
   - Implement **preventive measures** for top scrap reasons (Trim length, Wheel misalignment).  
