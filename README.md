@@ -124,7 +124,7 @@ This project delivers a **Power BI dashboard** built on the **AdventureWorks pro
 
 ## 🔎 Final Conclusion & Recommendation  
 
-### 📌 1. Market Expansion  
+### 📌 1. Product Categories  
 - **Insight:** Resource allocation shows Bikes as the primary focus, with Components underutilized.  
 - **Recommendation:**  
   - Optimize **resource allocation** to balance Bikes and Components production.  
